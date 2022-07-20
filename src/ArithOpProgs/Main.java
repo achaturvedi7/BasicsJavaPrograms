@@ -2,6 +2,9 @@ package ArithOpProgs;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        SumProg a1 = new SumProg();
+        System.out.println(a1.addTwoInteger());
+
     }
 }
